@@ -1,0 +1,25 @@
+div.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+div.header{
+    height: 200px;
+    margin-top: 50px;
+}
+
+div.recent-content{
+    height: 400px;
+}
+
+div.posts-content{
+    height: 800px;
+}
+
+div.footer{
+    height: 300px;
+    margin-bottom: 50px;
+}
