@@ -1,7 +1,3 @@
-div {
-    border: 1px solid black;
-}
-
 div.cabecalho {
     height: 25%;
 }
@@ -15,56 +11,83 @@ div.subscribe {
 }
 
 div.title {
+    display: flex;
     text-align: center;
     align-items: center;
 }
 
 div.title > h1{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
-    padding-top: 20px;
+    margin-bottom: 1px;
 }
 
 div.title > h3{
-    font-size: 8px;
-    padding-bottom: 25px;
+    font-size: 12px;
+   
 }
 
 div.subscribe {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-
-div.subscribe > input {
-   border-radius: 5px; 
-   border: 1px solid rgb(172, 171, 171);
-   width: 300px;
-   height: 30px;
-   font-size: 10px;
+div.subscribe > div {
+    display: flexbox;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 5px; 
+    width: 300px;
+    height: 30px;
+    padding-right: 2.5px;
 }
 
-div.subscribe > button {
-    display: inline-flex;
+div.subscribe> div > input {
+   border: none;
+   font-size: 10px;
+   width: 70%;
+}
+
+div.subscribe > div > button {
+    display: flex;
+    align-items: center;
     background-color: black;
     color: white;
     border-color: black;
     width: 75px;
     height: 25px;
     font-size: 12px;
-    text-align: center;
+    float: right;
+    margin-top: 1.25px;
 }
 
 div.cabecalho > div {
     justify-content: auto;
     align-items: auto;
     margin: auto;
-    font-size: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.cabecalho > div.title {
+    display: flex;
+    font-size: 18px;
+}
+div.cabecalho > div.title > span {
+    margin-left: 5px;
 }
 
-div.cabecalho > div > button {
+div.get-started > button {
     background-color: white;
     color: black;
-    border-color: black;
+    border-radius: 10px;
+    border: 2px solid black;
     font-weight: bold;
-    text-align: center;
+}
+div.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.get-started > i {
+    padding-left: 20px;
+    font-size: 20px;
 }
