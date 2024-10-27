@@ -6,6 +6,8 @@ import { FooterComponent } from '../footer/footer.component';
 import { RecentContentComponent } from '../recent-content/recent-content.component';
 import { HomeComponent } from './home.component';
 import { MenuItemComponent } from '../header/menu-item/menu-item.component';
+import { RecentBigCardComponent } from '../recent-content/recent-big-card/recent-big-card.component';
+import { RecentCardComponent } from '../recent-content/recent-card/recent-card.component';
 
 
 
@@ -16,7 +18,9 @@ import { MenuItemComponent } from '../header/menu-item/menu-item.component';
     FooterComponent,
     RecentContentComponent,
     PostsContentComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    RecentBigCardComponent,
+    RecentCardComponent
   ],
   imports: [
     CommonModule

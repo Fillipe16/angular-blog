@@ -1,0 +1,21 @@
+div {
+    border: 1px solid black;
+}
+
+div.title {
+    height: 10%;
+    align-items: center;
+}
+
+div.title > h4 {
+    font-size: medium;
+    margin-left: 2%;
+}
+
+div.content{
+    height: 90%;
+}
+
+div.recent-card {
+    height: 33.3333%;
+}
