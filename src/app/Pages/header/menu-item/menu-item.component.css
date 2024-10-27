@@ -1,0 +1,10 @@
+div.col  {
+    display: inline-flex;
+    padding-right: 10px;
+    align-items: center;
+}
+
+span.name{
+    font-weight: bold;
+    padding-right: 5px;
+}

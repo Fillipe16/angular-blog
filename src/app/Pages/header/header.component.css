@@ -1,0 +1,70 @@
+div {
+    border: 1px solid black;
+}
+
+div.cabecalho {
+    height: 25%;
+}
+
+div.title {
+    height: 40%;
+}
+
+div.subscribe {
+    height: 35%;
+}
+
+div.title {
+    text-align: center;
+    align-items: center;
+}
+
+div.title > h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+div.title > h3{
+    font-size: 8px;
+    padding-bottom: 25px;
+}
+
+div.subscribe {
+    align-items: center;
+    justify-content: center;
+}
+
+div.subscribe > input {
+   border-radius: 5px; 
+   border: 1px solid rgb(172, 171, 171);
+   width: 300px;
+   height: 30px;
+   font-size: 10px;
+}
+
+div.subscribe > button {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    border-color: black;
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+div.cabecalho > div {
+    justify-content: auto;
+    align-items: auto;
+    margin: auto;
+    font-size: 8px;
+}
+
+div.cabecalho > div > button {
+    background-color: white;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    text-align: center;
+}

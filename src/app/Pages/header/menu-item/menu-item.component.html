@@ -1,0 +1,8 @@
+<div class="container">
+    <div *ngFor="let item of itens" class="col">
+        <span class="name">{{item.item}}</span>
+        <i *ngIf="item.isExpand" class="fa-solid fa-chevron-down"></i>
+    </div>  
+</div>
+ 
+

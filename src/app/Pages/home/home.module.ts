@@ -5,6 +5,7 @@ import { PostsContentComponent } from '../posts-content/posts-content.component'
 import { FooterComponent } from '../footer/footer.component';
 import { RecentContentComponent } from '../recent-content/recent-content.component';
 import { HomeComponent } from './home.component';
+import { MenuItemComponent } from '../header/menu-item/menu-item.component';
 
 
 
@@ -14,7 +15,8 @@ import { HomeComponent } from './home.component';
     HeaderComponent,
     FooterComponent,
     RecentContentComponent,
-    PostsContentComponent
+    PostsContentComponent,
+    MenuItemComponent
   ],
   imports: [
     CommonModule
