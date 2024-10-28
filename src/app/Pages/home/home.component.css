@@ -7,19 +7,23 @@ div.container{
 }
 
 div.header{
+    display: flex;
     height: 200px;
     margin-top: 50px;
 }
 
 div.recent-content{
+    display: flex;
     height: 400px;
 }
 
 div.posts-content{
+    display: flex;
     height: 800px;
 }
 
 div.footer{
+    display: flex;
     height: 300px;
     margin-bottom: 50px;
 }
