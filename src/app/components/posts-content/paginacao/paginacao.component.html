@@ -1,0 +1,26 @@
+<div class="paginacao_menu">
+    <div class="col-md-3">
+        <div class="previous">
+            <button type="button" class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Previous</span>
+            </button>
+        </div>
+    </div>
+    <div class="col-md-6 numeros_container">
+        <div *ngFor="let numero of paginas" class="numero">
+            <button type="button" class="btn" [ngClass]="isPaginaAtiva(numero)">
+                {{ numero }}
+            </button>
+        </div>
+    </div>
+    <div class="col-md-3 next_container">
+        <div class="next">
+            <button type="button" class="btn">
+                <span>Next</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    
+</div>

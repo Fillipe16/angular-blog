@@ -1,0 +1,27 @@
+div{
+    border: 1px solid black;
+}
+:host {
+    height: 100%;
+}
+div.title {
+    display: flex;
+    height: 5%;
+    align-items: center;
+}
+div.title > h4 {
+    margin-left: 1%;
+    font-size: medium;
+}
+
+div.content{
+    height: 85%;
+}
+
+div.paginas {
+    height: 10%;
+}
+
+div.card {
+    width: 33.333%;
+}

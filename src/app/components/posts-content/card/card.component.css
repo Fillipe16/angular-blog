@@ -1,10 +1,11 @@
+
 :host {
     height: 100%;
     display: block;
 }
 
 div.img {
-    height: 65%;
+    height: 55%;
     overflow: hidden;
 }
 
@@ -16,28 +17,30 @@ div.img > img {
 }
 
 div.text{
-    height: 35%;
+    height: 45%;
+    gap: 0; 
 }
 
-div.text > span {
+div.text > div {
     margin-left: 2%;
 }
 
-span.author-and-date {
+div.author-and-date > span {
     font-size: 0.6rem;
 }
 
-span.title {
+div.title > span {
     font-size: 1.1rem;
     font-weight: bold;
     padding-bottom: 0px;
+    line-height: 0;
 }
 
-span.description {
+div.description > span {
     font-size: 0.6rem;
 }
 
-span.categorie{
+div.categorie > span{
     display: flex;
     font-size: 0.6rem;
     width: fit-content;
@@ -47,6 +50,7 @@ span.categorie{
     align-items: center;
     padding-top: 0%;
     padding-bottom: 0%;
-    margin-bottom: 2%;
-    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
 }

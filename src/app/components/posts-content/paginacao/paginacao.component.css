@@ -1,0 +1,68 @@
+
+div.previous {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 120px;
+    justify-content: center;
+}
+
+div.previous > button > span {
+    margin-left: 10px;
+}
+
+div.previous:hover{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+div.next_container {
+    display: flex;
+    justify-content: end;
+}
+
+div.next {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 100px;
+    justify-content: center;
+}
+
+div.next:hover{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+div.next > button > span {
+    margin-right: 10px;
+}
+
+div.paginacao_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+div.numeros_container {
+    display: flex;
+    justify-content: center;
+}
+
+div.numero {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+}
+
+div.numero > button:hover{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+button.paginaAtiva {
+    background-color: rgb(21, 29, 40);
+    color: white;
+}

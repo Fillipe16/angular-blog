@@ -8,6 +8,8 @@ import { HomeComponent } from './home.component';
 import { MenuItemComponent } from '../../components/header/menu-item/menu-item.component';
 import { RecentBigCardComponent } from '../../components/recent-content/recent-big-card/recent-big-card.component';
 import { RecentCardComponent } from '../../components/recent-content/recent-card/recent-card.component';
+import { CardComponent } from '../../components/posts-content/card/card.component';
+import { PaginacaoComponent } from '../../components/posts-content/paginacao/paginacao.component';
 
 
 
@@ -20,7 +22,9 @@ import { RecentCardComponent } from '../../components/recent-content/recent-card
     PostsContentComponent,
     MenuItemComponent,
     RecentBigCardComponent,
-    RecentCardComponent
+    RecentCardComponent,
+    CardComponent,
+    PaginacaoComponent
   ],
   imports: [
     CommonModule
