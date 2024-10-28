@@ -3,8 +3,7 @@ div {
 }
 :host {
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 div.title {
@@ -14,7 +13,7 @@ div.title {
 
 div.title > h4 {
     font-size: medium;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 div.content{
