@@ -1,6 +1,4 @@
-div{
-    border: 1px solid black;
-}
+
 :host {
     height: 100%;
 }
@@ -22,6 +20,6 @@ div.paginas {
     height: 10%;
 }
 
-div.card {
+div.card_post {
     width: 33.333%;
 }

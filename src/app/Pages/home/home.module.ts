@@ -10,6 +10,7 @@ import { RecentBigCardComponent } from '../../components/recent-content/recent-b
 import { RecentCardComponent } from '../../components/recent-content/recent-card/recent-card.component';
 import { CardComponent } from '../../components/posts-content/card/card.component';
 import { PaginacaoComponent } from '../../components/posts-content/paginacao/paginacao.component';
+import { BottomMenuComponent } from '../../components/footer/bottom-menu/bottom-menu.component';
 
 
 
@@ -24,7 +25,8 @@ import { PaginacaoComponent } from '../../components/posts-content/paginacao/pag
     RecentBigCardComponent,
     RecentCardComponent,
     CardComponent,
-    PaginacaoComponent
+    PaginacaoComponent,
+    BottomMenuComponent,
   ],
   imports: [
     CommonModule

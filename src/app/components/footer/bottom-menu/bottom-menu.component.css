@@ -1,0 +1,15 @@
+:host {
+    height: 100%;
+}
+
+
+div.title {
+    font-weight: 600;
+    font-size: small;
+    color: gray;
+}
+
+div.data{
+    font-weight: bold;
+    font-size:14px;
+} 

@@ -1,0 +1,48 @@
+:host {
+    height: 100%;
+    width: 100%;
+}
+
+div.sign_up {
+    height: 25%;
+}
+
+div.sign_up > div > h6 {
+    font-weight: 400;
+}
+div.subscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 15px;
+    height: 30px;
+}
+button {
+    display: flex;
+    height: 30px;
+    background-color: rgb(17, 24, 40);
+    color: white;
+    font-weight: 400;
+}
+
+div.menu {
+    height: 55%;
+}
+
+div.networking {
+    height: 20%;
+}
+
+div.social-networks > a {
+    margin-right: 10%;
+}
+
+div.social-networks > a > i {
+    font-size: 25px;
+}
