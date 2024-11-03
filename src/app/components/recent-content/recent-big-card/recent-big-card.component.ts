@@ -1,4 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+type PostType = {
+  author:String,
+  title:String,
+  description: String,
+  tags:String[],
+  img: String
+}
 
 @Component({
   selector: 'app-recent-big-card',
@@ -6,5 +13,5 @@ import { Component } from '@angular/core';
   styleUrl: './recent-big-card.component.css'
 })
 export class RecentBigCardComponent {
-
+  @Input() post : PostType | undefined;
 }

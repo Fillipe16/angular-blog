@@ -3,17 +3,11 @@
 </div>
 <div class="row content">
     <div class="col-md-6">
-        <app-recent-big-card></app-recent-big-card>
+        <app-recent-big-card [post]="bigCard"></app-recent-big-card>
     </div>
     <div class="col-md-6">
-        <div class="row recent-card">
-            <app-recent-card></app-recent-card>
-        </div>
-        <div class="row recent-card">
-            <app-recent-card></app-recent-card>
-        </div>
-        <div class="row recent-card">
-            <app-recent-card></app-recent-card>
+        <div class="row recent-card" *ngFor="let recentPost of recentCards">
+            <app-recent-card [post]="recentPost"></app-recent-card>
         </div>
     </div>
 </div>

@@ -37,16 +37,25 @@ span.description {
     font-size: 0.6rem;
 }
 
-span.categorie{
+div.categories{
     display: flex;
-    font-size: 0.6rem;
-    width: fit-content;
-    border: 1px solid rgb(97, 97, 97);
+    flex-direction: row;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+div.categorie{
+    margin-right: 10%;
+    display: flex;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: 2px solid rgb(97, 97, 97);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     padding-top: 0%;
-    padding-bottom: 0%;
-    margin-bottom: 2%;
-    margin-right: 5%;
+    padding-bottom: 0%; 
+    padding-left: 2%;
+    padding-right: 2%;
+    height: fit-content;
 }
