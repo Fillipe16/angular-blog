@@ -27,21 +27,21 @@ export class PostsContentComponent {
         "title": "Global Economy Faces Recession Threat",
         "description": "Experts warn that the global economy may be on the brink of a recession due to rising inflation and geopolitical tensions.",
         "tags": ["economy", "recession", "finance"],
-        "img": "assets/default.jpg"
+        "img": "assets/post1.jpg"
       },
       {
         "author": "James Liu * 15 Jan 2024",
         "title": "Advancements in Artificial Intelligence",
         "description": "Innovations in AI are transforming industries by automating processes and enhancing decision-making capabilities.",
         "tags": ["technology", "AI"],
-        "img": "assets/default.jpg"
+        "img": "assets/post2.jpg"
       },
       {
         "author": "Emma Tran * 10 Jan 2024",
         "title": "Health Benefits of Regular Exercise",
         "description": "Regular exercise is shown to reduce the risk of chronic illnesses and improve mental well-being.",
         "tags": ["health", "exercise"],
-        "img": "assets/default.jpg"
+        "img": "assets/post3.jpg"
       }
     ];
     this.postsRow2 = [
@@ -50,21 +50,21 @@ export class PostsContentComponent {
         "title": "Climate Change and Its Global Impact",
         "description": "Climate change is altering weather patterns, affecting wildlife, and displacing communities around the globe.",
         "tags": ["environment", "climate", "impact"],
-        "img": "assets/default.jpg"
+        "img": "assets/post4.jpg"
       },
       {
         "author": "Sophia Lopez * 02 Jan 2024",
         "title": "Top Travel Destinations for 2024",
         "description": "This year’s travel hotspots include breathtaking beaches, vibrant cities, and remote natural wonders.",
         "tags": ["travel", "destinations"],
-        "img": "assets/default.jpg"
+        "img": "assets/post5.jpg"
       },
       {
         "author": "Daniel Kim * 30 Dec 2023",
         "title": "The Rise of Remote Work Culture",
         "description": "As remote work becomes more common, companies are adapting to new workplace trends and productivity tools.",
         "tags": ["work"],
-        "img": "assets/default.jpg"
+        "img": "assets/post6.jpg"
       }
     ];
   }
