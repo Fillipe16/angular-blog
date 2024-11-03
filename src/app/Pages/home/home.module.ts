@@ -11,6 +11,7 @@ import { RecentCardComponent } from '../../components/recent-content/recent-card
 import { CardComponent } from '../../components/posts-content/card/card.component';
 import { PaginacaoComponent } from '../../components/posts-content/paginacao/paginacao.component';
 import { BottomMenuComponent } from '../../components/footer/bottom-menu/bottom-menu.component';
+import { CapitalizeFirstLetterPipe } from '../../common/pipes/capitalize-first-letter.pipe';
 
 
 
@@ -27,9 +28,10 @@ import { BottomMenuComponent } from '../../components/footer/bottom-menu/bottom-
     CardComponent,
     PaginacaoComponent,
     BottomMenuComponent,
+    CapitalizeFirstLetterPipe
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     HomeComponent

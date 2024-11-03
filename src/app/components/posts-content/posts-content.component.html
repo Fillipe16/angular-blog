@@ -2,18 +2,14 @@
     <h4> All blog posts </h4>
 </div>
 <div class="row content">
-    <div class="col-md-4 card_post">
-        <app-card></app-card>
+    <div *ngFor="let post of postsRow1" class="col-md-4 card_post">
+        <app-card [post] = "post"></app-card>
     </div>
-    <div class="col-md-4 card_post">b</div>
-    <div class="col-md-4 card_post">c</div>
-
-
-    <div class="col-md-4 card_post">
-        <app-card></app-card>
+    
+    <div *ngFor="let post of postsRow2" class="col-md-4 card_post">
+        <app-card [post] = "post"></app-card>
     </div>
-    <div class="col-md-4 card_post">b</div>
-    <div class="col-md-4 card_post">c</div>
+
 </div>
 <div class="row paginas">
     <app-paginacao></app-paginacao>

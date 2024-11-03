@@ -26,7 +26,8 @@ div.text > div {
 }
 
 div.author-and-date > span {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
 }
 
 div.title > span {
@@ -36,21 +37,31 @@ div.title > span {
     line-height: 0;
 }
 
-div.description > span {
+div.description {
     font-size: 0.6rem;
+    line-height: 100%;
+    font-weight: 400;
+
 }
 
-div.categorie > span{
+div.categories{
     display: flex;
-    font-size: 0.6rem;
-    width: fit-content;
-    border: 1px solid rgb(97, 97, 97);
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+div.categorie{
+    margin-right: 10%;
+    display: flex;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border: 2px solid rgb(97, 97, 97);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     padding-top: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 0%; 
     padding-left: 2%;
     padding-right: 2%;
-    
+    height: fit-content;
 }

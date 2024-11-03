@@ -1,17 +1,19 @@
 <div class="row img">
-    <img src="assets/bigcard.jpg" alt="Casa grande">
+    <img src="{{post?.img}}">
 </div>
 <div class="row text">
     <div class="author-and-date">
-        <span>Olivia Rhye * 20 Jan 2024</span>
+        <span>{{post?.author}}</span>
     </div>
     <div class="title">
-        <span > Conversation with London Mark & Co</span>
+        <span > {{post?.title}}</span>
     </div>
     <div class="description">
-        <span> We sat down with London fast-grawing brand and product deseign studio. Mark & Co. to find out how they've used Untitled Ui to 2x their revenue</span>
+        <span> {{post?.description}}</span>
     </div>
-    <div class="categorie">
-        <span>Design</span>
+    <div class="categories">
+        <div class="categorie" *ngFor="let tag of post?.tags">
+            <span>{{tag | capitalizeFirstLetter}}</span>
+        </div>
     </div>  
 </div>
